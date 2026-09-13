@@ -1,5 +1,16 @@
 cmake_minimum_required(VERSION 3.16)
 
+if (DEFINED ESP_PLATFORM)
+  # idf component
+  idf_component_register(
+      SRC_DIRS src
+      INCLUDE_DIRS src include
+  )
+
+  target_compile_options(${COMPONENT_LIB} PUBLIC -Wno-error)
+
+else()
+
 # set the project name
 project(arduino_liblc3)
 
@@ -18,3 +29,5 @@ add_library (arduino_liblc3 ${SRC_LIST_C})
 
 # define location for header files
 target_include_directories(arduino_liblc3 PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src )
+
+endif()
