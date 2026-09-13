@@ -1,7 +1,7 @@
-# arduino-liblc3
+# codec-lc3
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
-[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-liblc3)
+[![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/codec-lc3)
 [![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 LC3 (Low Complexity Communication Codec) is an audio codec specified by the Bluetooth Special Interest Group (SIG) for the LE Audio audio protocol introduced in Bluetooth 5.2. It's developed by Fraunhofer IIS and Ericsson as the successor of the SBC codec.
@@ -14,7 +14,7 @@ For Arduino, you can download the library as zip and call include Library -> zip
 
 ```
 cd  ~/Documents/Arduino/libraries
-git clone pschatzmann/arduino-liblc3.git
+git clone pschatzmann/codec-lc3.git
 ```
 This has the advantage that you can easily get the latest code updates by just executing the command ```git pull```
 
