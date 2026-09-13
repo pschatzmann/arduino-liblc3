@@ -2,6 +2,7 @@
 
 [![Arduino Library](https://img.shields.io/badge/Arduino-Library-blue.svg)](https://www.arduino.cc/reference/en/libraries/)
 [![IDF Component](https://img.shields.io/badge/IDF-Component-blue.svg)](https://github.com/pschatzmann/arduino-liblc3)
+[![CMake](https://img.shields.io/badge/CMake-Supported-blue.svg)](https://cmake.org/)
 
 LC3 (Low Complexity Communication Codec) is an audio codec specified by the Bluetooth Special Interest Group (SIG) for the LE Audio audio protocol introduced in Bluetooth 5.2. It's developed by Fraunhofer IIS and Ericsson as the successor of the SBC codec.
 
